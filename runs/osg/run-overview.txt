@@ -24,9 +24,9 @@ Cumulative job badput wall time as seen from submit side : 228 days, 1 hr
 46200 files checksums generated with total duration of 4 hrs, 9 mins
 
 # Integrity Errors
-# Total:    
-#       Total number of integrity errors encountered across all job executions(including retries) of a workflow. 
-# Failures: 
+# Total:
+#       Total number of integrity errors encountered across all job executions(including retries) of a workflow.
+# Failures:
 #       Number of failed jobs where the last job instance had integrity errors.
 Total:    A total of 54 integrity errors encountered in the workflow
 Failures: 0 job failures had integrity errors
