@@ -58,7 +58,7 @@ foreground_minifollowup-H1L1_ID88                                               
 foreground_minifollowup-H1L1_ID89                                                     1         1         0       13.915     13.915     13.915           13.915        
 foreground_minifollowup-H1L1_ID90                                                     1         1         0       7.996      7.996      7.996            7.996         
 foreground_minifollowup-H1L1_ID91                                                     1         1         0       7.611      7.611      7.611            7.611         
-hdf_trigger_merge-FULL_DATA-H1_ID11                                                   5         1         4       925.0      336048.0   70681.2          353406.0      
+hdf_trigger_merge-FULL_DATA-H1_ID11                                                   5         2         3       924.624    14271.0    6316.158         31580.79      
 hdf_trigger_merge-FULL_DATA-L1_ID12                                                   1         1         0       376478.989 376478.989 376478.989       376478.989    
 inspiral-FULL_DATA-H1_ID9                                                             34050     22680     11370   0.972      157371.405 11259.738        383394088.457 
 inspiral-FULL_DATA-L1_ID10                                                            28258     18680     9578    0.97       143826.474 11048.853        312218490.208 
@@ -128,6 +128,15 @@ singles_minifollowup-L1_ID93                                                    
 splitbank_ID7                                                                         1         1         0       57.915     57.915     57.915           57.915        
 statmap-FULL_DATA_FULL_CUMULATIVE_CAT_12H-H1L1_ID16                                   3         3         0       1052.422   17859.636  9698.369         29095.106     
 system::chmod                                                                         94        94        0       0.003      0.019      0.007            0.618         
+
+
+# 1631d427-c6e1-4902-a992-3581de1cb500 (finalization)
+Transformation           Count     Succeeded Failed  Min       Max       Mean      Total     
+dagman::post             4         4         0       0.0       1.0       0.25      1.0       
+pegasus::dirmanager      1         1         0       2.515     2.515     2.515     2.515     
+pegasus::transfer        1         1         0       10.45     10.45     10.45     10.45     
+results_page-H1L1_ID103  1         1         0       42.924    42.924    42.924    42.924    
+system::chmod            1         1         0       0.018     0.018     0.018     0.018     
 
 
 # 2f99fc41-69c0-4bef-8316-241a3ecbc5e3 (H1L1-FOREGROUND_MINIFOLLOWUP_FULL_DATA_FULL_CUMULATIVE_CAT_12H_FULL_DATA_FULL_BIN_2-1126051217-3331800_dax)
@@ -558,15 +567,6 @@ single_template_plot-P1_9-H1_ID78          1         1         0       5.474    
 system::chmod                              80        80        0       0.003     0.022     0.007          0.574     
 
 
-# 1631d427-c6e1-4902-a992-3581de1cb500 (finalization)
-Transformation           Count     Succeeded Failed  Min       Max       Mean      Total     
-dagman::post             4         4         0       0.0       1.0       0.25      1.0       
-pegasus::dirmanager      1         1         0       2.515     2.515     2.515     2.515     
-pegasus::transfer        1         1         0       10.45     10.45     10.45     10.45     
-results_page-H1L1_ID103  1         1         0       42.924    42.924    42.924    42.924    
-system::chmod            1         1         0       0.018     0.018     0.018     0.018     
-
-
 # All (All)
 Transformation                                                                        Count     Succeeded Failed  Min        Max        Mean             Total         
 bank2hdf-H1L1_ID6                                                                     1         1         0       18.496     18.496     18.496           18.496        
@@ -601,7 +601,7 @@ foreground_minifollowup-H1L1_ID88                                               
 foreground_minifollowup-H1L1_ID89                                                     1         1         0       13.915     13.915     13.915           13.915        
 foreground_minifollowup-H1L1_ID90                                                     1         1         0       7.996      7.996      7.996            7.996         
 foreground_minifollowup-H1L1_ID91                                                     1         1         0       7.611      7.611      7.611            7.611         
-hdf_trigger_merge-FULL_DATA-H1_ID11                                                   5         1         4       925.0      336048.0   70681.2          353406.0      
+hdf_trigger_merge-FULL_DATA-H1_ID11                                                   5         2         3       924.624    14271.0    6316.158         31580.79      
 hdf_trigger_merge-FULL_DATA-L1_ID12                                                   1         1         0       376478.989 376478.989 376478.989       376478.989    
 inspiral-FULL_DATA-H1_ID9                                                             34050     22680     11370   0.972      157371.405 11259.738        383394088.457 
 inspiral-FULL_DATA-L1_ID10                                                            28258     18680     9578    0.97       143826.474 11048.853        312218490.208 
